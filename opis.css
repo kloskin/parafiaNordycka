@@ -1,0 +1,220 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+
+}
+div {
+    overflow: hidden;
+    padding: 25px;
+}
+
+#ramka {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 400px;
+    max-width: 1550px;
+}
+
+  
+#naglowek {
+
+    width: 100%;
+    height: 800px;
+    max-width: 100%;
+    max-height: 800px;
+    font-size: 63px;
+    color: white;
+    font-family: Arial;
+    font-style: italic;
+    text-align:center;
+    margin: auto;
+    font-weight: bold;
+      background-size: 100% 100%;
+      background-position: center center;
+      background-attachment: fixed; 
+      background-repeat: no-repeat;
+      background-image: url('obrazki/kosc1.png');   
+    
+}
+#nagl1{
+
+  padding-top: 39%;
+
+}
+
+#stopka {
+    background-color: #333333;
+    font-size:10pkt;
+    color: white;
+    font-family: Arial;
+    font-style:italic;
+    text-align: center;
+    clear:both;
+    padding-bottom: 5px;
+}
+#wrapper{
+  display:-webkit-flex;
+  -webkit-justify-content:center;
+
+  display:flex;
+  justify-content:center;
+
+  padding-top: 10px;
+}
+
+#wrapper div{
+  -webkit-flex:1;
+  flex:1;
+}
+
+
+.formularze{
+
+  font-size: 20px;
+
+}
+
+.kolumny {
+    margin-top:10px;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    margin-left:10px; 
+    background-color: #e0dede;
+}
+#kol1 {
+  float:right;
+  width:300px;
+  padding: auto;
+  margin-right: 0px;
+  text-align: center;
+  padding-top: 0px;
+  background-color: white;
+}
+#kol2{
+
+  width: 60%;
+  float:right;
+
+}
+
+#kol1Text{
+  background-color: #e0dede;
+  padding: 0px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+#nagKol1{
+  background-color: #333333;
+  /*background-color: #4CAF50;*/
+  border-bottom: white solid 5px;
+  padding: 4px;
+  margin-bottom: 15px;
+  width: 300px;
+  color: white;
+}
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  .logowanie:hover{
+    background-color: #333333;
+  }
+
+  .active {
+    background-color: #4CAF50;
+  }
+
+table, tr, td, th {
+    border: 2px;
+    border-style: solid;
+    width: 100%;
+}
+
+#custSelect1 a:hover{
+background-color: red;
+}
+
+  
+.customSelect {
+
+  background-color: transparent;
+  border: none;
+  margin: 0px;
+  width: 100%;
+  height: 19px;
+  font-family: inherit;
+  font-size: inherit;
+  background-color: #333333;
+  cursor: inherit;
+  line-height: inherit;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.selectPlace{
+  float: right;
+}
+.selectPlace a:hover{
+  background-color: #333333;
+}
+
+
+@media only screen and (max-width:1600px) and (max-height:900px){
+  
+  #naglowek {
+
+      height: 600px;
+      max-height: 600px;
+      color: white;
+      background-image: url('obrazki/kosc1.png');     
+     
+}
+#nagl1{
+  padding-top: 36%;
+}
+
+}
+@media only screen and (min-width:1600px) and (max-width:1850px) and (max-height:900px){
+  
+  #naglowek {
+
+      height: 600px;
+      max-height: 600px;
+      color: white;
+      background-image: url('obrazki/kosc1.png');     
+     
+}
+#nagl1{
+  padding-top: 31%;
+}
+
+}
